@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lucky Games</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="title" id="title">
+            How Lucky Are You In Guessing The Right number
+        </h1>
+
+        <p class="between">
+            (Between 1 and 20)
+        </p>
+        <button class="btn-again" id="again">
+            Again!
+        </button>
+       
+    </header>
+<hr>
+    <div class="number">
+        ?
+    </div>
+</hr>
+    <main class="main" id="main">
+        <section class="left">
+
+            <input type="number" class="guess" id="guessing" />
+
+            <button class="btn-checkbtn" id="check">
+                Check!
+            </button>
+        </section>
+
+        <section class="right">
+            <p id="message">START GUESSING...</p>
+            <br>
+            <br>
+            <p class="scored">
+                SCORE:
+            <span class="scores" id="scores"> 20</span>
+            </p>
+            <br>
+           <p> Highscore: 0 </p>
+        </section>
+    </main>
+
+    <script src="games.js"></script>
+    
+</body>
+</html>
